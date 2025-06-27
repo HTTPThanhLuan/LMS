@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Content Remove="appsettings.Production..json" />
+    <Content Remove="wwwroot\SCORMCourses\blank.html" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,10 @@
     <Folder Include="Areas\Identity\Services\" />
     <Folder Include="Data\Migrations\" />
     <Folder Include="SCORMPackages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\SCORMCourses\blank.html" />
   </ItemGroup>
 
   <ItemGroup>
